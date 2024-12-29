@@ -40,8 +40,10 @@ To run and simulate this project, ensure you have:
 
 ### 🖥️ Compilation  
 Compile all SystemVerilog files in the directory using:  
+
 ```bash
 vlog *.sv
+
 ```bash
 
 ## 🚀Simulation  
