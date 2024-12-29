@@ -42,12 +42,15 @@ To run and simulate this project, ensure you have:
 Compile all SystemVerilog files in the directory using:  
 ```bash
 vlog *.sv
+```bash
 
 ## 🚀Simulation  
 
-To simulate the compiled design, use:  
+To simulate the compiled design, use:
+
 ```bash
 vsim -c tb_processor -voptargs=+acc -do "run -all"
+```bash
 
 ## 🤝 Contributing  
 Contributions are welcome! If you’d like to improve the design or report issues, follow these steps:  
